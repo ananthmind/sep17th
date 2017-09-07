@@ -1,0 +1,23 @@
+IN00679281
+
+CATALINA-ORLsMEDGlv02.catmktg.com-ORLsMEDGlv02.catmktg.com Apache Tomcat 7.0-Others
+ THRESHOLD BREACH FOR METRIC : Heap Memory Used  ;   BREACH VALUE SET > 512.00 MB  ;  ACTUAL VALUE COLLECTED = 520.6 MB  ;  
+ MWatch Ticket ID :[2907192]
+CATEGORY : [SYS-APS-TMC]
+Asset : [Name: [ORLsMEDGlv02.catmktg.com Apache Tomcat 7.0]
+IP: [10.22.66.70]]
+
+IN00679275
+
+CATALINA-ORLsMEDGlv01.catmktg.com-ORLsMEDGlv01.catmktg.com Apache Tomcat 7.0-Others
+ THRESHOLD BREACH FOR METRIC : Heap Memory Used  ;   BREACH VALUE SET > 512.00 MB  ;  ACTUAL VALUE COLLECTED = 518.7 MB  ;  
+ MWatch Ticket ID :[2907175]
+CATEGORY : [SYS-APS-TMC]
+Asset : [Name: [ORLsMEDGlv01.catmktg.com Apache Tomcat 7.0]
+IP: [10.22.66.69]]
+
+how to find heap memory
+
+java -XX:+PrintFlagsFinal
+
+java -XX:+PrintFlagsFinal -version | grep -iE 'heapsize|permsize|threadstacksize'
