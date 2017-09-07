@@ -21,3 +21,8 @@ how to find heap memory
 java -XX:+PrintFlagsFinal
 
 java -XX:+PrintFlagsFinal -version | grep -iE 'heapsize|permsize|threadstacksize'
+welcome to java
+sssssssssssssssssssss
+aaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbb
+cccccccccccccccccccccccccc
